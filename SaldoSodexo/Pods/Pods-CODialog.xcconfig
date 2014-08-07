@@ -1,0 +1,1 @@
+PODS_CODIALOG_OTHER_LDFLAGS = -framework UIKit
