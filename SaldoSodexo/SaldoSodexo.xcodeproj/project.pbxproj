@@ -24,6 +24,7 @@
 		3751E80E199415E7001224A5 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E80D199415E7001224A5 /* Card.m */; };
 		3751E81219941A72001224A5 /* NewCardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E81119941A72001224A5 /* NewCardTableViewController.m */; };
 		3751E81519941F01001224A5 /* CaptchaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E81419941F01001224A5 /* CaptchaViewController.m */; };
+		AF2DC5B7199475DE009CB923 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2DC5B6199475DE009CB923 /* WebViewController.m */; };
 		E5AD1FE9681644AE98BE5344 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17999AB3550C4C5FAD35987E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		3751E81319941F01001224A5 /* CaptchaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaViewController.h; sourceTree = "<group>"; };
 		3751E81419941F01001224A5 /* CaptchaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaViewController.m; sourceTree = "<group>"; };
 		3CC1194904D041EEA0004E3C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AF2DC5B5199475DE009CB923 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AF2DC5B6199475DE009CB923 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				3751E81119941A72001224A5 /* NewCardTableViewController.m */,
 				3751E81319941F01001224A5 /* CaptchaViewController.h */,
 				3751E81419941F01001224A5 /* CaptchaViewController.m */,
+				AF2DC5B5199475DE009CB923 /* WebViewController.h */,
+				AF2DC5B6199475DE009CB923 /* WebViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3751E7E41994144B001224A5 /* AppDelegate.m in Sources */,
+				AF2DC5B7199475DE009CB923 /* WebViewController.m in Sources */,
 				3751E81519941F01001224A5 /* CaptchaViewController.m in Sources */,
 				3751E81219941A72001224A5 /* NewCardTableViewController.m in Sources */,
 				3751E7E01994144B001224A5 /* main.m in Sources */,

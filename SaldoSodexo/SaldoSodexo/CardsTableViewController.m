@@ -8,6 +8,7 @@
 
 #import "CardsTableViewController.h"
 #import "Card.h"
+#import "CaptchaViewController.h"
 
 @interface CardsTableViewController ()
 
@@ -22,6 +23,13 @@
     
     self.cards = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"Cards"]];
     [self.tableView reloadData];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"CaptchaSegue"]) {
+        CaptchaViewController *vc = (CaptchaViewController *)segue.destinationViewController;
+        vc.card = (Card *)sender;
+    }
 }
 
 #pragma mark - UITableView Datasource and Delegate
@@ -43,6 +51,11 @@
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@",card.cardNumber, card.cpfNumber];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    Card *card = [Card cardWithDictionary:[self.cards objectAtIndex:indexPath.row]];
+    [self performSegueWithIdentifier:@"CaptchaSegue" sender:card];
 }
 
 @end

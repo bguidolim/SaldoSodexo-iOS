@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Card.h"
 
 @interface CaptchaViewController : UIViewController
+
+@property (strong, nonatomic) Card *card;
 
 @end
