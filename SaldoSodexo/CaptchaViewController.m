@@ -9,6 +9,7 @@
 #import "CaptchaViewController.h"
 #import "AFNetworking.h"
 #import "TransactionsViewController.h"
+#import "JGProgressHUD.h"
 
 @interface CaptchaViewController ()
 
@@ -39,6 +40,9 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
+    JGProgressHUD *hud = [JGProgressHUD progressHUDWithStyle:JGProgressHUDStyleDark];
+    [hud showInView:self.view animated:YES];
+    
     [self.manager GET:@"consultaSaldo.do?operation=setUp" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSArray *cookies = [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookiesForURL:self.manager.baseURL];
         for (NSHTTPCookie *cookie in cookies) {
@@ -61,13 +65,19 @@
         }];
         [self.manager.operationQueue addOperation:requestOperation];
         
+        [hud dismissAnimated:YES];
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [hud dismissAnimated:YES];
         [[[UIAlertView alloc] initWithTitle:@"Erro" message:error.localizedDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
     }];
 }
 
 - (IBAction)loginButtonTapped:(id)sender {
     self.manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    JGProgressHUD *hud = [JGProgressHUD progressHUDWithStyle:JGProgressHUDStyleDark];
+    [hud showInView:self.view animated:YES];
     
     NSString *params = [NSString stringWithFormat:@"service=5%%3B1%%3B6&cardNumber=%@&cpf=%@&jcaptcha_response=%@&x=6&y=9",
                         self.card.cardNumber,self.card.cpfNumber,self.captchaTextField.text];
@@ -86,10 +96,11 @@
     self.manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", nil];
     
     AFHTTPRequestOperation *requestOperation = [self.manager HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, NSData *responseObject) {
-
+        [hud dismissAnimated:YES];
         [self performSegueWithIdentifier:@"TransactionsSegue" sender:responseObject];
 
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [hud dismissAnimated:YES];
         [[[UIAlertView alloc] initWithTitle:@"Error" message:error.localizedDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
     }];
     [self.manager.operationQueue addOperation:requestOperation];
