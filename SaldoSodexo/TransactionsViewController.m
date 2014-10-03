@@ -35,8 +35,25 @@
     NSString *decodedString = [[NSString alloc] initWithData:decodedData encoding:NSASCIIStringEncoding];
     
     HTMLDocument *document = [HTMLDocument documentWithString:decodedString];
-    HTMLSelector *selector = [HTMLSelector selectorForString:@"#gridSaldo"];
+    
+    HTMLSelector *selector = [HTMLSelector selectorForString:@"#balance"];
     HTMLElement *elem = [document firstNodeMatchingParsedSelector:selector];
+    NSMutableDictionary *dict = [NSMutableDictionary new];
+    [elem.childElementNodes enumerateObjectsUsingBlock:^(HTMLElement *elemNote, NSUInteger idx, BOOL *stop) {
+        if (idx == 0) {
+            [dict setObject:[elemNote.textContent uppercaseString] forKey:@"description"];
+        } else {
+            NSArray *parts = [elemNote.textContent componentsSeparatedByString:@":"];
+            NSString *date = [[parts objectAtIndex:0] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+            NSString *balance = [[parts objectAtIndex:1] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+            [dict setObject:date forKey:@"date"];
+            [dict setObject:balance forKey:@"value"];
+        }
+    }];
+    [self.data addObject:dict];
+    
+    selector = [HTMLSelector selectorForString:@"#gridSaldo"];
+    elem = [document firstNodeMatchingParsedSelector:selector];
     __block HTMLElement *extrato;
     [elem.childElementNodes enumerateObjectsUsingBlock:^(HTMLElement *obj, NSUInteger idx, BOOL *stop) {
         if ([[obj tagName] isEqualToString:@"tbody"]) {
