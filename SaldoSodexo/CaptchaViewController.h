@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Card.h"
 
-@interface CaptchaViewController : UIViewController
+@interface CaptchaViewController : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) Card *card;
 

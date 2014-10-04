@@ -11,6 +11,12 @@
 
 @implementation NewCardTableViewController
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.nameTextField becomeFirstResponder];
+}
+
 - (IBAction)saveCard:(id)sender {
     Card *card = [Card new];
     card.name = self.nameTextField.text;

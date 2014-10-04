@@ -72,6 +72,7 @@
 		37C58E0119DEF05F001C6398 /* TransactionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionTableViewCell.m; sourceTree = "<group>"; };
 		7D41DB17CFD71AC9FAB7C9F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		845D55C8A3614F48EEDD772E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EB03D3D319DF8764004B2EFF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 			children = (
 				3751E7E21994144B001224A5 /* AppDelegate.h */,
 				3751E7E31994144B001224A5 /* AppDelegate.m */,
+				EB03D3D319DF8764004B2EFF /* Constants.h */,
 				3751E80819941533001224A5 /* Controllers */,
 				3751E7E51994144B001224A5 /* Main.storyboard */,
 				3751E7EB1994144B001224A5 /* Images.xcassets */,

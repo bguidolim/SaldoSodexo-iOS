@@ -25,6 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.captchaTextField.delegate = self;
+    
     self.manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:@"https://sodexosaldocartao.com.br/saldocartao/"]];
     self.manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     self.manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", nil];
@@ -37,11 +39,20 @@
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.captchaTextField becomeFirstResponder];
+        
+}
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
     JGProgressHUD *hud = [JGProgressHUD progressHUDWithStyle:JGProgressHUDStyleDark];
     [hud showInView:self.view animated:YES];
+    
+
     
     [self.manager GET:@"consultaSaldo.do?operation=setUp" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSArray *cookies = [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookiesForURL:self.manager.baseURL];
@@ -71,7 +82,10 @@
         [hud dismissAnimated:YES];
         [[[UIAlertView alloc] initWithTitle:@"Erro" message:error.localizedDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
     }];
+    
+    
 }
+
 
 - (IBAction)loginButtonTapped:(id)sender {
     self.manager.responseSerializer = [AFHTTPResponseSerializer serializer];
@@ -82,7 +96,7 @@
     NSString *params = [NSString stringWithFormat:@"service=5%%3B1%%3B6&cardNumber=%@&cpf=%@&jcaptcha_response=%@&x=6&y=9",
                         self.card.cardNumber,self.card.cpfNumber,self.captchaTextField.text];
     NSData *dataBody = [params dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:NO];
-    NSString *dataLength = [NSString stringWithFormat:@"%ld", [dataBody length]];
+    NSString *dataLength = [NSString stringWithFormat:@"%ld", (unsigned long)[dataBody length]];
     
     NSMutableURLRequest *request = [self.manager.requestSerializer requestWithMethod:@"POST" URLString:[[NSURL URLWithString:@"consultaSaldo.do?operation=consult" relativeToURL:self.manager.baseURL] absoluteString] parameters:params error:nil];
     [request setValue:[NSString stringWithFormat:@"JSESSIONID=%@",self.sessionID] forHTTPHeaderField:@"Cookie"];
@@ -104,6 +118,16 @@
         [[[UIAlertView alloc] initWithTitle:@"Error" message:error.localizedDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
     }];
     [self.manager.operationQueue addOperation:requestOperation];
+}
+
+#pragma mark TextField Delegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (textField == self.captchaTextField) {
+        [self loginButtonTapped:nil];
+        return YES;
+    }
+    return NO;
 }
 
 @end
