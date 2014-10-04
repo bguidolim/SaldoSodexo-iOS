@@ -32,9 +32,36 @@
     }
 }
 
+- (void)saveCards {
+    
+    [[NSUserDefaults standardUserDefaults] setObject:self.cards forKey:@"Cards"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+}
+
+
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.cards removeObjectAtIndex:indexPath.row];
+    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    
+    [self saveCards];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return @"Apagar";
+}
+
 #pragma mark - UITableView Datasource and Delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.cards.count;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 70.0f;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -47,8 +74,10 @@
     
     Card *card = [Card cardWithDictionary:[self.cards objectAtIndex:indexPath.row]];
     
-    cell.textLabel.text = card.name;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@",card.cardNumber, card.cpfNumber];
+    cell.textLabel.text         = card.name;
+    cell.detailTextLabel.text   = [NSString stringWithFormat:@"%@",card.cardNumber];
+//    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@",card.cardNumber, card.cpfNumber];
+    
     
     return cell;
 }
@@ -56,6 +85,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     Card *card = [Card cardWithDictionary:[self.cards objectAtIndex:indexPath.row]];
     [self performSegueWithIdentifier:@"CaptchaSegue" sender:card];
+}
+
+- (IBAction)unwindToCardsViewController:(UIStoryboardSegue *)segue {
+    //nothing goes here
 }
 
 @end
