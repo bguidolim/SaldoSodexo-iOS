@@ -58,6 +58,7 @@
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
     self.saldoBarButton.title = [balance stringByReplacingOccurrencesOfString:@"." withString:[formatter decimalSeparator]];
+    self.saldoBarButton.tintColor = [UIColor colorWithRed:1.0f green:0.5f blue:0.5f alpha:1.0f];
     
 //    [self.data addObject:dict];
     
