@@ -32,12 +32,9 @@
     NSString *price       = @"";
     
     if ([[self.dict objectForKey:@"type"] isEqualToString:@"DÉBITO"]) {
-        
-//        priceFormat = [NSString stringWithFormat:@"-%@", CURRENCY_FORMAT];
         [self.priceLabel setTextColor:[UIColor colorWithRed:1.0f green:0.5f blue:0.5f alpha:1.0f]];
     }
     else {
-//        priceFormat = [NSString stringWithFormat:@"+%@", CURRENCY_FORMAT];
         [self.priceLabel setTextColor:[UIColor colorWithRed:0.0f green:0.7f blue:0.2f alpha:1.0f]];
     }
     

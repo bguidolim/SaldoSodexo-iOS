@@ -58,9 +58,7 @@
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
     self.saldoBarButton.title = [balance stringByReplacingOccurrencesOfString:@"." withString:[formatter decimalSeparator]];
-    self.saldoBarButton.tintColor = [UIColor colorWithRed:1.0f green:0.5f blue:0.5f alpha:1.0f];
-    
-//    [self.data addObject:dict];
+    self.saldoBarButton.tintColor = [UIColor colorWithRed:0.0f green:0.7f blue:0.2f alpha:1.0f];
     
     selector = [HTMLSelector selectorForString:@"#gridSaldo"];
     elem = [document firstNodeMatchingParsedSelector:selector];
@@ -77,31 +75,22 @@
     [extrato.childElementNodes enumerateObjectsUsingBlock:^(HTMLElement *obj, NSUInteger idx, BOOL *stop) {
         NSMutableDictionary *dict = [NSMutableDictionary new];
         [obj.childElementNodes enumerateObjectsUsingBlock:^(HTMLElement *elemNote, NSUInteger idx, BOOL *stop) {
-            [dict setObject:elemNote.textContent forKey:[self.fields objectAtIndex:idx]];
+            [dict setObject:[elemNote.textContent stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] forKey:[self.fields objectAtIndex:idx]];
         }];
         
-        if ([dict objectForKey:@"date"])
-        {
+        if ([dict objectForKey:@"date"]) {
             NSString *currentMonth = [(NSString*)[dict objectForKey:@"date"] substringWithRange:NSMakeRange(3,2)];
             
-            if (lastMonth && [currentMonth isEqualToString:lastMonth])
-            {
-                if ([[self.data lastObject] isKindOfClass:[NSMutableArray class]])
-                {
+            if (lastMonth && [currentMonth isEqualToString:lastMonth]) {
+                if ([[self.data lastObject] isKindOfClass:[NSMutableArray class]]) {
                     [[self.data lastObject] addObject:dict];
                 }
-                
-            }
-            else
-            {
+            } else {
                 [self.data addObject:[NSMutableArray arrayWithObject:dict]];
             }
             
             lastMonth = currentMonth;
         }
-        
-//        [self.data addObject:dict];
-        
     }];
 }
 
