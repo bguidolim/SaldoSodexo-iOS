@@ -1,1398 +1,607 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>17999AB3550C4C5FAD35987E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3751E7C71994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7D91994144B001224A5</string>
-				<string>3751E7F81994144B001224A5</string>
-				<string>3751E7D21994144B001224A5</string>
-				<string>3751E7D11994144B001224A5</string>
-				<string>5711CC60CC4F2D3489CFABCC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7C81994144B001224A5</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Bruno Guidolim</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>3751E7CF1994144B001224A5</key>
-					<dict>
-						<key>DevelopmentTeam</key>
-						<string>538K82AWLV</string>
-					</dict>
-					<key>3751E7F01994144B001224A5</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>3751E7CF1994144B001224A5</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>3751E7CB1994144B001224A5</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>3751E7C71994144B001224A5</string>
-			<key>productRefGroup</key>
-			<string>3751E7D11994144B001224A5</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3751E7CF1994144B001224A5</string>
-				<string>3751E7F01994144B001224A5</string>
-			</array>
-		</dict>
-		<key>3751E7CB1994144B001224A5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3751E8001994144B001224A5</string>
-				<string>3751E8011994144B001224A5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3751E7CC1994144B001224A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3751E7E41994144B001224A5</string>
-				<string>3751E81519941F01001224A5</string>
-				<string>3751E81219941A72001224A5</string>
-				<string>37C58E0219DEF05F001C6398</string>
-				<string>37C58DFF19DEE799001C6398</string>
-				<string>3751E7E01994144B001224A5</string>
-				<string>3751E80B19941559001224A5</string>
-				<string>3751E80E199415E7001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3751E7CD1994144B001224A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3751E7D61994144B001224A5</string>
-				<string>3751E7D81994144B001224A5</string>
-				<string>3751E7D41994144B001224A5</string>
-				<string>E5AD1FE9681644AE98BE5344</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3751E7CE1994144B001224A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3751E7EC1994144B001224A5</string>
-				<string>3751E7DE1994144B001224A5</string>
-				<string>3751E7E71994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3751E7CF1994144B001224A5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3751E8021994144B001224A5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7F389A6C935C49D29252DF9C</string>
-				<string>3751E7CC1994144B001224A5</string>
-				<string>3751E7CD1994144B001224A5</string>
-				<string>3751E7CE1994144B001224A5</string>
-				<string>E9A013F528E74C08940F05D4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SaldoSodexo</string>
-			<key>productName</key>
-			<string>SaldoSodexo</string>
-			<key>productReference</key>
-			<string>3751E7D01994144B001224A5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>3751E7D01994144B001224A5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SaldoSodexo.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3751E7D11994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7D01994144B001224A5</string>
-				<string>3751E7F11994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7D21994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7D31994144B001224A5</string>
-				<string>3751E7D51994144B001224A5</string>
-				<string>3751E7D71994144B001224A5</string>
-				<string>3751E7F21994144B001224A5</string>
-				<string>17999AB3550C4C5FAD35987E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7D31994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>3751E7D41994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7D31994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7D51994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>3751E7D61994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7D51994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7D71994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>3751E7D81994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7D71994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7D91994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7E21994144B001224A5</string>
-				<string>3751E7E31994144B001224A5</string>
-				<string>EB03D3D319DF8764004B2EFF</string>
-				<string>3751E80819941533001224A5</string>
-				<string>3751E7E51994144B001224A5</string>
-				<string>3751E7EB1994144B001224A5</string>
-				<string>3751E7DA1994144B001224A5</string>
-				<string>3751E80F199415EE001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SaldoSodexo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7DA1994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7DB1994144B001224A5</string>
-				<string>3751E7DC1994144B001224A5</string>
-				<string>3751E7DF1994144B001224A5</string>
-				<string>3751E7E11994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7DB1994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>SaldoSodexo-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7DC1994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7DD1994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7DD1994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7DE1994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7DC1994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7DF1994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7E01994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7DF1994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7E11994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SaldoSodexo-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7E21994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7E31994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7E41994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7E31994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7E51994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7E61994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7E61994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7E71994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7E51994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7EB1994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7EC1994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7EB1994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7ED1994144B001224A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3751E7FF1994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3751E7EE1994144B001224A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3751E7F31994144B001224A5</string>
-				<string>3751E7F51994144B001224A5</string>
-				<string>3751E7F41994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3751E7EF1994144B001224A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3751E7FD1994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3751E7F01994144B001224A5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3751E8051994144B001224A5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3751E7ED1994144B001224A5</string>
-				<string>3751E7EE1994144B001224A5</string>
-				<string>3751E7EF1994144B001224A5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3751E7F71994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SaldoSodexoTests</string>
-			<key>productName</key>
-			<string>SaldoSodexoTests</string>
-			<key>productReference</key>
-			<string>3751E7F11994144B001224A5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>3751E7F11994144B001224A5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SaldoSodexoTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3751E7F21994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3751E7F31994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7F21994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7F41994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7D31994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7F51994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7D71994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7F61994144B001224A5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>3751E7C81994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3751E7CF1994144B001224A5</string>
-			<key>remoteInfo</key>
-			<string>SaldoSodexo</string>
-		</dict>
-		<key>3751E7F71994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3751E7CF1994144B001224A5</string>
-			<key>targetProxy</key>
-			<string>3751E7F61994144B001224A5</string>
-		</dict>
-		<key>3751E7F81994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7FE1994144B001224A5</string>
-				<string>3751E7F91994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SaldoSodexoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7F91994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7FA1994144B001224A5</string>
-				<string>3751E7FB1994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7FA1994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>SaldoSodexoTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7FB1994144B001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E7FC1994144B001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7FC1994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7FD1994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7FB1994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E7FE1994144B001224A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SaldoSodexoTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E7FF1994144B001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E7FE1994144B001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E8001994144B001224A5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3751E8011994144B001224A5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3751E8021994144B001224A5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3751E8031994144B001224A5</string>
-				<string>3751E8041994144B001224A5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3751E8031994144B001224A5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7D41DB17CFD71AC9FAB7C9F6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SaldoSodexo/SaldoSodexo-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SaldoSodexo/SaldoSodexo-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3751E8041994144B001224A5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>845D55C8A3614F48EEDD772E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SaldoSodexo/SaldoSodexo-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SaldoSodexo/SaldoSodexo-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3751E8051994144B001224A5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3751E8061994144B001224A5</string>
-				<string>3751E8071994144B001224A5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3751E8061994144B001224A5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SaldoSodexo.app/SaldoSodexo</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SaldoSodexo/SaldoSodexo-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>SaldoSodexoTests/SaldoSodexoTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3751E8071994144B001224A5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SaldoSodexo.app/SaldoSodexo</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SaldoSodexo/SaldoSodexo-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SaldoSodexoTests/SaldoSodexoTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3751E80819941533001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>37C58E0319DF0D51001C6398</string>
-				<string>37C58E0419DF0D59001C6398</string>
-				<string>37C58E0519DF0D60001C6398</string>
-				<string>37C58E0619DF0D67001C6398</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E80919941559001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CardsTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E80A19941559001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CardsTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E80B19941559001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E80A19941559001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E80C199415E7001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Card.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E80D199415E7001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Card.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E80E199415E7001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E80D199415E7001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E80F199415EE001224A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E80C199415E7001224A5</string>
-				<string>3751E80D199415E7001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E81019941A72001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NewCardTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E81119941A72001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NewCardTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E81219941A72001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E81119941A72001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3751E81319941F01001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CaptchaViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E81419941F01001224A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CaptchaViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3751E81519941F01001224A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3751E81419941F01001224A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37C58DFD19DEE799001C6398</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TransactionsViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37C58DFE19DEE799001C6398</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TransactionsViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37C58DFF19DEE799001C6398</key>
-		<dict>
-			<key>fileRef</key>
-			<string>37C58DFE19DEE799001C6398</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37C58E0019DEF05F001C6398</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TransactionTableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37C58E0119DEF05F001C6398</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TransactionTableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37C58E0219DEF05F001C6398</key>
-		<dict>
-			<key>fileRef</key>
-			<string>37C58E0119DEF05F001C6398</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37C58E0319DF0D51001C6398</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E80919941559001224A5</string>
-				<string>3751E80A19941559001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Cards</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37C58E0419DF0D59001C6398</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E81019941A72001224A5</string>
-				<string>3751E81119941A72001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NewCard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37C58E0519DF0D60001C6398</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3751E81319941F01001224A5</string>
-				<string>3751E81419941F01001224A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Captcha</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37C58E0619DF0D67001C6398</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>37C58DFD19DEE799001C6398</string>
-				<string>37C58DFE19DEE799001C6398</string>
-				<string>37C58E0019DEF05F001C6398</string>
-				<string>37C58E0119DEF05F001C6398</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Transactions</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5711CC60CC4F2D3489CFABCC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D41DB17CFD71AC9FAB7C9F6</string>
-				<string>845D55C8A3614F48EEDD772E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D41DB17CFD71AC9FAB7C9F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F389A6C935C49D29252DF9C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>845D55C8A3614F48EEDD772E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5AD1FE9681644AE98BE5344</key>
-		<dict>
-			<key>fileRef</key>
-			<string>17999AB3550C4C5FAD35987E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9A013F528E74C08940F05D4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>EB03D3D319DF8764004B2EFF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Constants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>3751E7C81994144B001224A5</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3724DC361A82A5F400F90EDC /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3724DC351A82A5F400F90EDC /* Transaction.m */; };
+		3724DC381A82AD2600F90EDC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3724DC371A82AD2600F90EDC /* Launch Screen.xib */; };
+		3751E7D41994144B001224A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751E7D31994144B001224A5 /* Foundation.framework */; };
+		3751E7D61994144B001224A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751E7D51994144B001224A5 /* CoreGraphics.framework */; };
+		3751E7D81994144B001224A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751E7D71994144B001224A5 /* UIKit.framework */; };
+		3751E7DE1994144B001224A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3751E7DC1994144B001224A5 /* InfoPlist.strings */; };
+		3751E7E01994144B001224A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E7DF1994144B001224A5 /* main.m */; };
+		3751E7E41994144B001224A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E7E31994144B001224A5 /* AppDelegate.m */; };
+		3751E7E71994144B001224A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3751E7E51994144B001224A5 /* Main.storyboard */; };
+		3751E7EC1994144B001224A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3751E7EB1994144B001224A5 /* Images.xcassets */; };
+		3751E7F31994144B001224A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751E7F21994144B001224A5 /* XCTest.framework */; };
+		3751E7F41994144B001224A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751E7D31994144B001224A5 /* Foundation.framework */; };
+		3751E7F51994144B001224A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751E7D71994144B001224A5 /* UIKit.framework */; };
+		3751E7FD1994144B001224A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3751E7FB1994144B001224A5 /* InfoPlist.strings */; };
+		3751E7FF1994144B001224A5 /* SaldoSodexoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E7FE1994144B001224A5 /* SaldoSodexoTests.m */; };
+		3751E80B19941559001224A5 /* CardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E80A19941559001224A5 /* CardsTableViewController.m */; };
+		3751E80E199415E7001224A5 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E80D199415E7001224A5 /* Card.m */; };
+		3751E81219941A72001224A5 /* NewCardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751E81119941A72001224A5 /* NewCardTableViewController.m */; };
+		37C58DFF19DEE799001C6398 /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C58DFE19DEE799001C6398 /* TransactionsViewController.m */; };
+		37C58E0219DEF05F001C6398 /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C58E0119DEF05F001C6398 /* TransactionTableViewCell.m */; };
+		E5AD1FE9681644AE98BE5344 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17999AB3550C4C5FAD35987E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3751E7F61994144B001224A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3751E7C81994144B001224A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3751E7CF1994144B001224A5;
+			remoteInfo = SaldoSodexo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17999AB3550C4C5FAD35987E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3724DC341A82A5F400F90EDC /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		3724DC351A82A5F400F90EDC /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		3724DC371A82AD2600F90EDC /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		3751E7D01994144B001224A5 /* SaldoSodexo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaldoSodexo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3751E7D31994144B001224A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3751E7D51994144B001224A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3751E7D71994144B001224A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3751E7DB1994144B001224A5 /* SaldoSodexo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaldoSodexo-Info.plist"; sourceTree = "<group>"; };
+		3751E7DD1994144B001224A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3751E7DF1994144B001224A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3751E7E11994144B001224A5 /* SaldoSodexo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaldoSodexo-Prefix.pch"; sourceTree = "<group>"; };
+		3751E7E21994144B001224A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3751E7E31994144B001224A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3751E7E61994144B001224A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3751E7EB1994144B001224A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3751E7F11994144B001224A5 /* SaldoSodexoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaldoSodexoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3751E7F21994144B001224A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3751E7FA1994144B001224A5 /* SaldoSodexoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaldoSodexoTests-Info.plist"; sourceTree = "<group>"; };
+		3751E7FC1994144B001224A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3751E7FE1994144B001224A5 /* SaldoSodexoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaldoSodexoTests.m; sourceTree = "<group>"; };
+		3751E80919941559001224A5 /* CardsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsTableViewController.h; sourceTree = "<group>"; };
+		3751E80A19941559001224A5 /* CardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsTableViewController.m; sourceTree = "<group>"; };
+		3751E80C199415E7001224A5 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		3751E80D199415E7001224A5 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		3751E81019941A72001224A5 /* NewCardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardTableViewController.h; sourceTree = "<group>"; };
+		3751E81119941A72001224A5 /* NewCardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardTableViewController.m; sourceTree = "<group>"; };
+		37C58DFD19DEE799001C6398 /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
+		37C58DFE19DEE799001C6398 /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
+		37C58E0019DEF05F001C6398 /* TransactionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionTableViewCell.h; sourceTree = "<group>"; };
+		37C58E0119DEF05F001C6398 /* TransactionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionTableViewCell.m; sourceTree = "<group>"; };
+		7D41DB17CFD71AC9FAB7C9F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		845D55C8A3614F48EEDD772E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3751E7CD1994144B001224A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3751E7D61994144B001224A5 /* CoreGraphics.framework in Frameworks */,
+				3751E7D81994144B001224A5 /* UIKit.framework in Frameworks */,
+				3751E7D41994144B001224A5 /* Foundation.framework in Frameworks */,
+				E5AD1FE9681644AE98BE5344 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3751E7EE1994144B001224A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3751E7F31994144B001224A5 /* XCTest.framework in Frameworks */,
+				3751E7F51994144B001224A5 /* UIKit.framework in Frameworks */,
+				3751E7F41994144B001224A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3751E7C71994144B001224A5 = {
+			isa = PBXGroup;
+			children = (
+				3751E7D91994144B001224A5 /* SaldoSodexo */,
+				3751E7F81994144B001224A5 /* SaldoSodexoTests */,
+				3751E7D21994144B001224A5 /* Frameworks */,
+				3751E7D11994144B001224A5 /* Products */,
+				5711CC60CC4F2D3489CFABCC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3751E7D11994144B001224A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3751E7D01994144B001224A5 /* SaldoSodexo.app */,
+				3751E7F11994144B001224A5 /* SaldoSodexoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3751E7D21994144B001224A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3751E7D31994144B001224A5 /* Foundation.framework */,
+				3751E7D51994144B001224A5 /* CoreGraphics.framework */,
+				3751E7D71994144B001224A5 /* UIKit.framework */,
+				3751E7F21994144B001224A5 /* XCTest.framework */,
+				17999AB3550C4C5FAD35987E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3751E7D91994144B001224A5 /* SaldoSodexo */ = {
+			isa = PBXGroup;
+			children = (
+				3751E7E21994144B001224A5 /* AppDelegate.h */,
+				3751E7E31994144B001224A5 /* AppDelegate.m */,
+				3751E80819941533001224A5 /* Controllers */,
+				3751E7E51994144B001224A5 /* Main.storyboard */,
+				3751E7EB1994144B001224A5 /* Images.xcassets */,
+				3751E7DA1994144B001224A5 /* Supporting Files */,
+				3751E80F199415EE001224A5 /* Model */,
+			);
+			path = SaldoSodexo;
+			sourceTree = "<group>";
+		};
+		3751E7DA1994144B001224A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3751E7DB1994144B001224A5 /* SaldoSodexo-Info.plist */,
+				3751E7DC1994144B001224A5 /* InfoPlist.strings */,
+				3751E7DF1994144B001224A5 /* main.m */,
+				3751E7E11994144B001224A5 /* SaldoSodexo-Prefix.pch */,
+				3724DC371A82AD2600F90EDC /* Launch Screen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3751E7F81994144B001224A5 /* SaldoSodexoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3751E7FE1994144B001224A5 /* SaldoSodexoTests.m */,
+				3751E7F91994144B001224A5 /* Supporting Files */,
+			);
+			path = SaldoSodexoTests;
+			sourceTree = "<group>";
+		};
+		3751E7F91994144B001224A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3751E7FA1994144B001224A5 /* SaldoSodexoTests-Info.plist */,
+				3751E7FB1994144B001224A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3751E80819941533001224A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37C58E0319DF0D51001C6398 /* Cards */,
+				37C58E0419DF0D59001C6398 /* NewCard */,
+				37C58E0619DF0D67001C6398 /* Transactions */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3751E80F199415EE001224A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3751E80C199415E7001224A5 /* Card.h */,
+				3751E80D199415E7001224A5 /* Card.m */,
+				3724DC341A82A5F400F90EDC /* Transaction.h */,
+				3724DC351A82A5F400F90EDC /* Transaction.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		37C58E0319DF0D51001C6398 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				3751E80919941559001224A5 /* CardsTableViewController.h */,
+				3751E80A19941559001224A5 /* CardsTableViewController.m */,
+			);
+			name = Cards;
+			sourceTree = "<group>";
+		};
+		37C58E0419DF0D59001C6398 /* NewCard */ = {
+			isa = PBXGroup;
+			children = (
+				3751E81019941A72001224A5 /* NewCardTableViewController.h */,
+				3751E81119941A72001224A5 /* NewCardTableViewController.m */,
+			);
+			name = NewCard;
+			sourceTree = "<group>";
+		};
+		37C58E0619DF0D67001C6398 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				37C58DFD19DEE799001C6398 /* TransactionsViewController.h */,
+				37C58DFE19DEE799001C6398 /* TransactionsViewController.m */,
+				37C58E0019DEF05F001C6398 /* TransactionTableViewCell.h */,
+				37C58E0119DEF05F001C6398 /* TransactionTableViewCell.m */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		5711CC60CC4F2D3489CFABCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D41DB17CFD71AC9FAB7C9F6 /* Pods.debug.xcconfig */,
+				845D55C8A3614F48EEDD772E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3751E7CF1994144B001224A5 /* SaldoSodexo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3751E8021994144B001224A5 /* Build configuration list for PBXNativeTarget "SaldoSodexo" */;
+			buildPhases = (
+				7F389A6C935C49D29252DF9C /* Check Pods Manifest.lock */,
+				3751E7CC1994144B001224A5 /* Sources */,
+				3751E7CD1994144B001224A5 /* Frameworks */,
+				3751E7CE1994144B001224A5 /* Resources */,
+				E9A013F528E74C08940F05D4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaldoSodexo;
+			productName = SaldoSodexo;
+			productReference = 3751E7D01994144B001224A5 /* SaldoSodexo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3751E7F01994144B001224A5 /* SaldoSodexoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3751E8051994144B001224A5 /* Build configuration list for PBXNativeTarget "SaldoSodexoTests" */;
+			buildPhases = (
+				3751E7ED1994144B001224A5 /* Sources */,
+				3751E7EE1994144B001224A5 /* Frameworks */,
+				3751E7EF1994144B001224A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3751E7F71994144B001224A5 /* PBXTargetDependency */,
+			);
+			name = SaldoSodexoTests;
+			productName = SaldoSodexoTests;
+			productReference = 3751E7F11994144B001224A5 /* SaldoSodexoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3751E7C81994144B001224A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bruno Guidolim";
+				TargetAttributes = {
+					3751E7CF1994144B001224A5 = {
+						DevelopmentTeam = V46ME5Z7UQ;
+					};
+					3751E7F01994144B001224A5 = {
+						TestTargetID = 3751E7CF1994144B001224A5;
+					};
+				};
+			};
+			buildConfigurationList = 3751E7CB1994144B001224A5 /* Build configuration list for PBXProject "SaldoSodexo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3751E7C71994144B001224A5;
+			productRefGroup = 3751E7D11994144B001224A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3751E7CF1994144B001224A5 /* SaldoSodexo */,
+				3751E7F01994144B001224A5 /* SaldoSodexoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3751E7CE1994144B001224A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3751E7EC1994144B001224A5 /* Images.xcassets in Resources */,
+				3724DC381A82AD2600F90EDC /* Launch Screen.xib in Resources */,
+				3751E7DE1994144B001224A5 /* InfoPlist.strings in Resources */,
+				3751E7E71994144B001224A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3751E7EF1994144B001224A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3751E7FD1994144B001224A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F389A6C935C49D29252DF9C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A013F528E74C08940F05D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3751E7CC1994144B001224A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3724DC361A82A5F400F90EDC /* Transaction.m in Sources */,
+				3751E7E41994144B001224A5 /* AppDelegate.m in Sources */,
+				3751E81219941A72001224A5 /* NewCardTableViewController.m in Sources */,
+				37C58E0219DEF05F001C6398 /* TransactionTableViewCell.m in Sources */,
+				37C58DFF19DEE799001C6398 /* TransactionsViewController.m in Sources */,
+				3751E7E01994144B001224A5 /* main.m in Sources */,
+				3751E80B19941559001224A5 /* CardsTableViewController.m in Sources */,
+				3751E80E199415E7001224A5 /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3751E7ED1994144B001224A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3751E7FF1994144B001224A5 /* SaldoSodexoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3751E7F71994144B001224A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3751E7CF1994144B001224A5 /* SaldoSodexo */;
+			targetProxy = 3751E7F61994144B001224A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3751E7DC1994144B001224A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3751E7DD1994144B001224A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3751E7E51994144B001224A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3751E7E61994144B001224A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3751E7FB1994144B001224A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3751E7FC1994144B001224A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3751E8001994144B001224A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3751E8011994144B001224A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3751E8031994144B001224A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D41DB17CFD71AC9FAB7C9F6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaldoSodexo/SaldoSodexo-Prefix.pch";
+				INFOPLIST_FILE = "SaldoSodexo/SaldoSodexo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3751E8041994144B001224A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845D55C8A3614F48EEDD772E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaldoSodexo/SaldoSodexo-Prefix.pch";
+				INFOPLIST_FILE = "SaldoSodexo/SaldoSodexo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3751E8061994144B001224A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaldoSodexo.app/SaldoSodexo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaldoSodexo/SaldoSodexo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SaldoSodexoTests/SaldoSodexoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3751E8071994144B001224A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaldoSodexo.app/SaldoSodexo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaldoSodexo/SaldoSodexo-Prefix.pch";
+				INFOPLIST_FILE = "SaldoSodexoTests/SaldoSodexoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3751E7CB1994144B001224A5 /* Build configuration list for PBXProject "SaldoSodexo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3751E8001994144B001224A5 /* Debug */,
+				3751E8011994144B001224A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3751E8021994144B001224A5 /* Build configuration list for PBXNativeTarget "SaldoSodexo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3751E8031994144B001224A5 /* Debug */,
+				3751E8041994144B001224A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3751E8051994144B001224A5 /* Build configuration list for PBXNativeTarget "SaldoSodexoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3751E8061994144B001224A5 /* Debug */,
+				3751E8071994144B001224A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3751E7C81994144B001224A5 /* Project object */;
+}

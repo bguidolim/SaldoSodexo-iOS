@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Transaction.h"
 
 @interface TransactionTableViewCell : UITableViewCell
 
-@property (strong, nonatomic) NSDictionary *dict;
+@property (strong, nonatomic) Transaction *transaction;
 
 @end

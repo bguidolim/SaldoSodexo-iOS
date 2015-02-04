@@ -10,6 +10,8 @@
 
 @interface TransactionsViewController : UIViewController
 
-@property (strong, nonatomic) NSData *dataToLoad;
+@property (strong, nonatomic) NSArray *transactions;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *saldoBarButton;
 
 @end
